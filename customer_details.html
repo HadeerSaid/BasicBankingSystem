@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Customer Details</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="/customers">View Customers</a></li>
+        </ul>
+    </nav>
+    <navv>
+    <h2>Customer Details</h2>
+    <h3><strong>{{ customer.name }}</strong></h3>
+    <p>Email: {{ customer.email }}</p>
+    <p>Current Balance: ${{ customer.balance }}</p>
+    <a href="/transfer_money" class="buttonn" >Transfer Money </a>
+   
+</navv>
+</body>
+</html>

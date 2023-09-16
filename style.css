@@ -1,0 +1,182 @@
+
+body {
+    background-color: #4A235A; 
+}
+
+.navbar {
+    background-color: #6A0888;
+    
+}
+
+.navbar a {
+    color: white; /* White color for navigation links */
+    font-size: 18px; /* font size */
+    font-family: 'Georgia', sans-serif; 
+    text-decoration: none;
+}
+
+h1 {
+    color: white; /* White color for headings */
+    font-family: 'Georgia', sans-serif; 
+}
+
+/* Style boxes for customer names */
+.customer-box {
+    background-color:#fff; /* Purple shade for customer boxes */
+    color: white; /* White font color */
+    font-family: 'Georgia', sans-serif; 
+    font-size: 16px; /* font size */
+    padding: 10px; /* Add padding to boxes */
+    margin: 5px; /* Add margin between boxes */
+}
+
+
+
+/* Style dropdown list */
+.select-label {
+    color: white; /* White font color for label */
+}
+
+.select-list {
+    background-color: #6A0888; /* Purple shade for dropdown */
+    color: white; /* White font color */
+    font-family: 'Georgia', sans-serif; 
+}
+
+
+nav {
+    background-color: #6A0888;
+    color: #fff;
+    height: 60px;
+    border-radius: 10px;
+}
+nav a {
+    color: white; /* White color for navigation links */
+    font-size: 18px; /* font size */
+    font-family: 'Georgia'; 
+    text-decoration: none;
+    font-family: 'Georgia', sans-serif;;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    height: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    line-height: 60px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+ul li {
+    margin: 10px 0;
+    color: white;
+}
+
+form {
+    margin: 20px;
+    text-align:left;
+    color: white;
+}
+
+label, select, input {
+    display: block;
+    margin: 10px 0;
+    
+}
+
+button {
+    background-color: #6A0888; /* Purple shade for the button background */
+    color: white; /* White font color for the button text */
+    padding: 10px 20px; /* Adjust padding to control button size */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add a slight border-radius for rounded corners */
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    text-decoration: none; /* Remove underline for links inside buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.customer-link {
+    
+    display: block;
+    padding: 5px; /* Add padding to each customer name box */
+    margin: 5px 0; /* Add margin between customer name boxes */
+    text-decoration: none; /* Remove underlines from links */
+    transition: background-color 0.3s ease; /* Add hover transition */
+}
+
+.customer-link:hover {
+    background-color: #333; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+navv{
+    color: white;
+}
+
+
+.buttonn {
+    background-color: #6A0888; /* Purple shade for the button background */
+    color: white; /* White font color for the button text */
+    padding: 10px 20px; /* Adjust padding to control button size */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add a slight border-radius for rounded corners */
+    font-size: 18px;
+    font-family: 'Georgia', sans-serif;
+    text-decoration: none; /* Remove underline for links inside buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style the button on hover for interactivity */
+.buttonn:hover {
+    background-color: #8E44AD; /* Change background color on hover */
+}
+
+
+/* Style the footer */
+.footer {
+    background-color: #6A0888; /* Purple shade for the footer background */
+    color: white; /* White font color for the text */
+    padding: 20px 0; /* Add padding to the footer */
+    text-align: center; /* Center-align the text within the footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the contact information within the footer */
+.contact-info {
+    font-size: 16px; /* Adjust font size for contact details */
+}
+
+.contact-info p {
+    margin: 5px 0; /* Add spacing between contact details */
+}
+
+.contact-info a {
+    color: white; /* White font color for the email link */
+    text-decoration: none; /* Remove underline for the email link */
+    font-weight: bold; /* Make the email link bold */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover for the email link */
+}
